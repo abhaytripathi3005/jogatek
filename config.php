@@ -10,7 +10,7 @@ define('BASE_URL', ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? '
 define('SITE_NAME', 'JogaTek');
 define('COMPANY_NAME', 'Jogaapp Technologies Pvt. Ltd.');
 define('SITE_EMAIL', 'info@jogatek.com');
-define('SITE_PHONE', '+91 7521853631');
+define('SITE_PHONE', '+91 7317855235');
 define('SEO_DEFAULT_IMAGE', 'assets/images/hero.png');
 
 $seo = [

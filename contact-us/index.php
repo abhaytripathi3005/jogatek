@@ -31,7 +31,7 @@
 
             <div class="hero-buttons">
                 <a href="#contact-form" class="btn-primary">Send Message</a>
-                <a href="https://wa.me/917521853631" target="_blank" class="btn-secondary">
+                <a href="https://wa.me/917317855235" target="_blank" class="btn-secondary">
                     WhatsApp Us
                 </a>
             </div>
@@ -180,7 +180,7 @@
                         <span>📞</span>
                         <div>
                             <strong>Phone</strong>
-                            <p>+91-7521853631</p>
+                            <p>+91-7317855235</p>
                         </div>
                     </li>
 
