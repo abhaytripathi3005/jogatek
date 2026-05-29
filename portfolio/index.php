@@ -82,6 +82,29 @@ include __DIR__ . '/../header.php';
                 </div>
             </div>
 
+            <div class="portfolio-card">
+                <?php picture_img('gs-infratech-portfolio.png', 'GS Infratech Portfolio'); ?>
+
+                <div class="portfolio-content">
+                    
+                    <h3 class="portfolio-title">
+                        <img src="<?php echo BASE_URL; ?>assets/images/gs-infratech-logo.png"
+                             alt="TekSathi Logo"
+                             class="portfolio-logo">
+
+                        <span>GS Infratech</span>
+                    </h3>
+
+                    <p>
+                        Professional construction and infrastructure company website designed to showcase services, projects, and expertise. Built with a modern responsive design, fast performance, and SEO-friendly structure to strengthen online presence and generate business inquiries.
+                    </p>
+
+                    <a href="https://gsinfratech.com/" target="_blank" class="btn-secondary" style="margin-top:18px;">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+
 
             <div class="portfolio-card">
                 <?php picture_img('healthcare.png', 'TekSathi Healthcare Booking Platform'); ?>
