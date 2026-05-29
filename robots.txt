@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /404/
+Disallow: /job-apply/
+
+Sitemap: http://localhost/jogatek/sitemap.xml
