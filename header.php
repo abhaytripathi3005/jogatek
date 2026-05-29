@@ -39,6 +39,16 @@ $canonical = get_canonical_url();
     <link rel="icon" href="<?php echo BASE_URL; ?>assets/images/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="<?php echo BASE_URL ?>site.webmanifest">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC3MQYG30Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QC3MQYG30Z');
+    </script>
+
     <script type="application/ld+json"><?php
     echo json_encode(get_organization_schema(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
     ?></script>
