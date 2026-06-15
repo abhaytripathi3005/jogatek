@@ -131,6 +131,72 @@ include __DIR__ . '/../header.php';
 
 
             <div class="portfolio-card">
+                <?php picture_img('gynosakhi.png', 'GynoSakhi AI Maternity Care Platform'); ?>
+
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">
+                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
+                             alt="GynoSakhi Logo"
+                             class="portfolio-logo">
+
+                        <span>GynoSakhi</span>
+                    </h3>
+
+                    <p>
+                        Maternal health website helping expectant mothers monitor pregnancy progress and access expert guidance..
+                    </p>
+
+                    <a href="https://duedatecalculator.blog/" target="_blank" class="btn-secondary" style="margin-top:18px;">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <?php picture_img('gynosakhi-duedatecalculator.png', 'GynoSakhi AI Maternity Care Platform'); ?>
+
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">
+                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
+                             alt="GynoSakhi Logo"
+                             class="portfolio-logo">
+
+                        <span>GynoSakhi</span>
+                    </h3>
+
+                    <p>
+                        Maternal health website helping expectant mothers monitor pregnancy progress and access expert guidance..
+                    </p>
+
+                    <a href="https://duedatecalculator.blog/" target="_blank" class="btn-secondary" style="margin-top:18px;">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <?php picture_img('gynosakhi-duedatecalculator.png', 'GynoSakhi AI Maternity Care Platform'); ?>
+
+                <div class="portfolio-content">
+                    <h3 class="portfolio-title">
+                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
+                             alt="GynoSakhi Logo"
+                             class="portfolio-logo">
+
+                        <span>GynoSakhi</span>
+                    </h3>
+
+                    <p>
+                        Comprehensive pregnancy care platform with AI-powered tracking, monitoring, and support.
+                    </p>
+
+                    <a href="https://pregnancysymptoms.in/" target="_blank" class="btn-secondary" style="margin-top:18px;">
+                        Visit Website
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
                 <?php picture_img('wellness.png', 'TekSathi Spa and Salon Management Software'); ?>
 
                 <div class="portfolio-content">
