@@ -129,29 +129,6 @@ include __DIR__ . '/../header.php';
                 </div>
             </div>
 
-
-            <div class="portfolio-card">
-                <?php picture_img('gynosakhi.png', 'GynoSakhi AI Maternity Care Platform'); ?>
-
-                <div class="portfolio-content">
-                    <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
-                             alt="GynoSakhi Logo"
-                             class="portfolio-logo">
-
-                        <span>GynoSakhi</span>
-                    </h3>
-
-                    <p>
-                        Maternal health website helping expectant mothers monitor pregnancy progress and access expert guidance..
-                    </p>
-
-                    <a href="https://duedatecalculator.blog/" target="_blank" class="btn-secondary" style="margin-top:18px;">
-                        Visit Website
-                    </a>
-                </div>
-            </div>
-
             <div class="portfolio-card">
                 <?php picture_img('gynosakhi-duedatecalculator.png', 'GynoSakhi AI Maternity Care Platform'); ?>
 
@@ -165,7 +142,7 @@ include __DIR__ . '/../header.php';
                     </h3>
 
                     <p>
-                        Maternal health website helping expectant mothers monitor pregnancy progress and access expert guidance..
+                        Interactive pregnancy due date calculator with pregnancy tracking, baby growth insights, and personalized care guidance for expecting mothers.
                     </p>
 
                     <a href="https://duedatecalculator.blog/" target="_blank" class="btn-secondary" style="margin-top:18px;">
@@ -187,7 +164,7 @@ include __DIR__ . '/../header.php';
                     </h3>
 
                     <p>
-                        Comprehensive pregnancy care platform with AI-powered tracking, monitoring, and support.
+                        Pregnancy symptoms tracking and guidance platform offering week-by-week insights, health monitoring, and AI-powered pregnancy support.
                     </p>
 
                     <a href="https://pregnancysymptoms.in/" target="_blank" class="btn-secondary" style="margin-top:18px;">
