@@ -175,7 +175,7 @@ include __DIR__ . '/../header.php';
             </div>
 
             <div class="portfolio-card">
-                <?php picture_img('gynosakhi-duedatecalculator.png', 'GynoSakhi AI Maternity Care Platform'); ?>
+                <?php picture_img('gynosakhi-symptoms-website.png', 'GynoSakhi AI Maternity Care Platform'); ?>
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
