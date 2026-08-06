@@ -143,6 +143,14 @@
 
                 </a>
 
+                <a href="https://www.youtube.com/@jogatekofficial"
+                   target="_blank"
+                   aria-label="YouTube">
+
+                    <i class="fab fa-youtube"></i>
+
+                </a>
+
             </div>
         </div>
 
@@ -248,6 +256,26 @@ $(document).ready(function(){
                 $(".dropdown").removeClass("active");
                 $(".sub-dropdown").removeClass("active");
             }
+        }
+    });
+
+    // Sticky Header Shadow
+    $(window).on("scroll", function(){
+        if($(window).scrollTop() > 50){
+            $(".header").css({"box-shadow": "0 5px 20px rgba(0,0,0,0.4)"});
+        } else {
+            $(".header").css({"box-shadow": "none"});
+        }
+    });
+
+    // Smooth Scroll for anchor links
+    $('a[href*="#"]').on('click', function(e){
+        let target = $(this.hash);
+        if(target.length){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top - 90
+            }, 600);
         }
     });
 

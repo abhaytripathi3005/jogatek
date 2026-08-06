@@ -65,9 +65,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
-                             alt="GynoSakhi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('GynoSakhi-logo.png', 'GynoSakhi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>GynoSakhi</span>
                     </h3>
@@ -88,9 +86,7 @@ include __DIR__ . '/../header.php';
                 <div class="portfolio-content">
                     
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/gs-infratech-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('gs-infratech-logo.png', 'GS Infratech Logo', 'class="portfolio-logo"'); ?>
 
                         <span>GS Infratech</span>
                     </h3>
@@ -112,9 +108,7 @@ include __DIR__ . '/../header.php';
                 <div class="portfolio-content">
                     
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/teksathi-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('teksathi-logo.png', 'TekSathi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>TekSathi Healthcare</span>
                     </h3>
@@ -134,9 +128,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
-                             alt="GynoSakhi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('GynoSakhi-logo.png', 'GynoSakhi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>GynoSakhi</span>
                     </h3>
@@ -156,9 +148,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
-                             alt="GynoSakhi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('GynoSakhi-logo.png', 'GynoSakhi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>GynoSakhi</span>
                     </h3>
@@ -178,9 +168,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/teksathi-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('teksathi-logo.png', 'TekSathi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>TekSathi Spa & Salon</span>
                     </h3>
@@ -201,9 +189,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/teksathi-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('teksathi-logo.png', 'TekSathi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>TekSathi Club Management</span>
                     </h3>
@@ -224,9 +210,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/teksathi-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('teksathi-logo.png', 'TekSathi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>TekSathi Events Management</span>
                     </h3>

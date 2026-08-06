@@ -2397,6 +2397,20 @@ section{
 
     .hero-wrapper,
     .about-wrapper,
+    .hero,
+    .service-hero{
+        padding-top:40px !important;
+        padding-bottom:50px !important;
+    }
+
+    section{
+        padding:45px 0 !important;
+    }
+
+    .section-header{
+        margin-bottom:30px !important;
+    }
+
     .service-hero-wrapper,
     .error-wrapper{
         flex-direction:column;
@@ -2417,14 +2431,14 @@ section{
 
     .hero-left h1,
     .service-hero-left h1{
-        font-size:42px;
+        font-size:38px;
         line-height:1.2;
     }
 
     .section-header h2,
     .about-right h2,
     .cta-box h2{
-        font-size:34px;
+        font-size:30px;
     }
 
     .hero-buttons{
@@ -2456,6 +2470,7 @@ section{
     .footer-wrapper{
 
         grid-template-columns:1fr !important;
+        gap:20px !important;
     }
 
     .engagement-models-grid .engagement-card,
@@ -2475,7 +2490,13 @@ section{
 
 
 
-    /* CARDS */
+    /* CARDS & CONTAINERS */
+
+    .container{
+        width:92% !important;
+        max-width:100% !important;
+        padding:0 4px !important;
+    }
 
     .service-card,
     .why-card,
@@ -2485,7 +2506,8 @@ section{
     .job-card,
     .portfolio-card{
 
-        padding:24px;
+        padding:22px 20px !important;
+        border-radius:20px !important;
     }
 
 
@@ -2493,7 +2515,9 @@ section{
     /* CTA */
 
     .cta-box{
-        padding:60px 25px;
+        padding:45px 22px !important;
+        border-radius:24px !important;
+        margin:0 4px !important;
     }
 
 
@@ -2501,11 +2525,11 @@ section{
     /* FOOTER */
 
     .footer{
-        padding:70px 0 25px;
+        padding:50px 0 25px !important;
     }
 
     .footer-wrapper{
-        gap:35px;
+        gap:30px !important;
     }
 
 }
@@ -2519,18 +2543,19 @@ section{
 @media(max-width:576px){
 
     .container{
-        width:92%;
+        width:94% !important;
+        padding:0 2px !important;
     }
 
     .hero-left h1,
     .service-hero-left h1{
-        font-size:34px;
+        font-size:32px;
     }
 
     .section-header h2,
     .about-right h2,
     .cta-box h2{
-        font-size:28px;
+        font-size:26px;
     }
 
     .btn-primary,

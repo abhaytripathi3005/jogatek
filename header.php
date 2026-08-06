@@ -76,6 +76,7 @@ $canonical = get_canonical_url();
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
@@ -168,13 +169,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li><a href="<?php echo BASE_URL ?>industries" class="<?php echo trim(nav_link_active('industries')); ?>">Industries</a></li>
                         <li><a href="<?php echo BASE_URL ?>technologies" class="<?php echo trim(nav_link_active('technologies')); ?>">Technologies</a></li>
                         <li><a href="<?php echo BASE_URL ?>testimonials" class="<?php echo trim(nav_link_active('testimonials')); ?>">Testimonials</a></li>
-                    </ul>
                         <li>
                             <a href="<?php echo BASE_URL ?>website-plans"
                                class="<?php echo trim(nav_link_active('website-plans')); ?>">
                                Website Pricing
                             </a>
                         </li>
+                    </ul>
                 </li>
 
             </ul>

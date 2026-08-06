@@ -674,9 +674,7 @@
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/GynoSakhi-logo.png"
-                             alt="GynoSakhi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('GynoSakhi-logo.png', 'GynoSakhi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>GynoSakhi</span>
                     </h3>
@@ -696,9 +694,7 @@
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/teksathi-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('teksathi-logo.png', 'TekSathi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>TekSathi Spa & Salon</span>
                     </h3>
@@ -719,9 +715,7 @@
 
                 <div class="portfolio-content">
                     <h3 class="portfolio-title">
-                        <img src="<?php echo BASE_URL; ?>assets/images/teksathi-logo.png"
-                             alt="TekSathi Logo"
-                             class="portfolio-logo">
+                        <?php picture_img('teksathi-logo.png', 'TekSathi Logo', 'class="portfolio-logo"'); ?>
 
                         <span>TekSathi Club Management</span>
                     </h3>

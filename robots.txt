@@ -4,4 +4,4 @@ Allow: /
 Disallow: /404/
 Disallow: /job-apply/
 
-Sitemap: http://localhost/jogatek/sitemap.xml
+Sitemap: https://jogatek.com/sitemap.xml

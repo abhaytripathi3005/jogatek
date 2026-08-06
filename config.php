@@ -535,9 +535,26 @@ function picture_img($file, $alt, $extraAttrs = '')
     $webpUrl = $base . '/' . $webp;
     $imgUrl = $base . '/' . $file;
     $webpPath = BASE_PATH . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $webp);
+    $imgPath = BASE_PATH . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $file);
     $altEsc = htmlspecialchars($alt, ENT_QUOTES, 'UTF-8');
     $extra = trim((string) $extraAttrs);
-    $extraHtml = $extra !== '' ? ' ' . $extra : '';
+
+    // Auto-detect image dimensions to avoid Cumulative Layout Shift (CLS)
+    $dimensions = '';
+    if (is_file($imgPath)) {
+        $size = @getimagesize($imgPath);
+        if ($size && isset($size[0], $size[1])) {
+            $dimensions = ' width="' . $size[0] . '" height="' . $size[1] . '"';
+        }
+    }
+
+    // Auto-inject loading="lazy" unless it is a hero image or explicitly overridden
+    $lazy = '';
+    if (strpos($extra, 'loading=') === false && strpos($file, 'hero') === false) {
+        $lazy = ' loading="lazy"';
+    }
+
+    $extraHtml = ($extra !== '' ? ' ' . $extra : '') . $dimensions . $lazy;
 
     echo '<picture>', "\n";
     if (is_file($webpPath)) {
