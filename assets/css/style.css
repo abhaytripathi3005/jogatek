@@ -25,6 +25,7 @@ body{
 
 img{
     max-width:100%;
+    height:auto;
     display:block;
 }
 
@@ -400,6 +401,7 @@ section{
 .hero-image-card img,
 .hero-image-card picture img{
     width:100%;
+    height:auto;
     border-radius:22px;
 }
 
@@ -750,6 +752,7 @@ section{
 .about-left img,
 .about-left picture img{
     width:100%;
+    height:auto;
     border-radius:28px;
 }
 
@@ -1898,7 +1901,7 @@ section{
 }
 
 .logo img{
-    height: 50px;
+    height: 42px;
     width: auto;
     display: block;
 }
@@ -2286,7 +2289,8 @@ section{
     }
 
     .logo img{
-        height:75px;
+        height: 38px;
+        width: auto;
     }
 
     .mobile-menu-btn{

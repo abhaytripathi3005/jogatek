@@ -143,7 +143,7 @@
 
                 </a>
 
-                <a href="https://www.youtube.com/@jogatekofficial"
+                <a href="https://www.youtube.com/@jogatek"
                    target="_blank"
                    aria-label="YouTube">
 
