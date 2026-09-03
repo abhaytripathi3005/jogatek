@@ -63,18 +63,18 @@ include __DIR__ . '/../header.php';
             <!-- MEDICAL REPRESENTATIVE / HEALTHCARE SALES -->
             <div class="job-card">
                 <h3>Medical Representative (MR) – Healthcare Software Sales</h3>
-                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: Lucknow / Field Sales</p>
+                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: PAN India / Field Sales / Remote</p>
                 <span class="job-deadline">⏳ Apply before: 30 October 2026</span>
 
                 <h4>Salary</h4>
                 <p>₹15,000 – ₹35,000 + High Sales Incentives & Travel Allowance</p>
 
                 <h4>Job Description</h4>
-                <p>Sell healthcare software solutions (TekSathi Healthcare, GynoSakhi, Clinic & Hospital Management Systems, Telehealth Portals) to clinics, hospitals, diagnostic centers, and doctors.</p>
+                <p>Sell TekSathi Healthcare software products (TekSathi Clinic & Hospital Management Systems, Telehealth Portals, Doctor Appointment Software) to clinics, hospitals, diagnostic centers, and doctors.</p>
 
                 <h4>Responsibilities</h4>
                 <ul>
-                    <li>Visit doctors, clinics, and hospitals to pitch healthcare software solutions</li>
+                    <li>Visit doctors, clinics, and hospitals to pitch TekSathi Healthcare software solutions</li>
                     <li>Generate leads, deliver product demos, and close sales with healthcare providers</li>
                     <li>Build long-term professional relationships with doctors and clinic owners</li>
                     <li>Meet monthly sales targets and provide client feedback to the product team</li>
@@ -102,7 +102,7 @@ include __DIR__ . '/../header.php';
             <!-- IT SALES EXECUTIVE / BDE -->
             <div class="job-card">
                 <h3>IT Sales Executive / Business Development Executive (BDE)</h3>
-                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: Lucknow / Remote / Hybrid</p>
+                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: PAN India / Remote / Hybrid</p>
                 <span class="job-deadline">⏳ Apply before: 30 October 2026</span>
 
                 <h4>Salary</h4>
