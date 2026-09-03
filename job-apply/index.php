@@ -78,6 +78,17 @@ include __DIR__ . '/../header.php';
                         <input type="text" name="phone" placeholder="Phone Number" required
                             style="padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.05);color:#fff;">
 
+                        <!-- JOB ROLE -->
+                        <div class="form-group">
+                            <select name="job_role" style="width:100%;padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:#0f172a;color:#fff;">
+                                <option value="">Select Position Applying For</option>
+                                <option value="Medical Representative (MR) - Healthcare Sales">Medical Representative (MR) – Healthcare Software Sales</option>
+                                <option value="IT Sales Executive / BDE">IT Sales Executive / Business Development Executive (BDE)</option>
+                                <option value="Flutter Developer">Flutter Developer</option>
+                                <option value="Backend Developer">Backend Developer</option>
+                                <option value="Other">Other Position</option>
+                            </select>
+                        </div>
 
                         <input type="text" name="experience" placeholder="Experience (e.g. 2 Years)"
                             style="padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.05);color:#fff;">

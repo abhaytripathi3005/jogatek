@@ -60,79 +60,79 @@ include __DIR__ . '/../header.php';
 
         <div class="jobs-grid">
 
-            <!-- FLUTTER DEVELOPER -->
+            <!-- MEDICAL REPRESENTATIVE / HEALTHCARE SALES -->
             <div class="job-card">
-                <h3>Flutter Developer</h3>
-                <p class="job-meta">Experience: 0–4 Years | Type: Full-Time | Location: Lucknow / Remote</p>
-                <span class="job-deadline">⏳ Apply before: 10 June 2026</span>
+                <h3>Medical Representative (MR) – Healthcare Software Sales</h3>
+                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: Lucknow / Field Sales</p>
+                <span class="job-deadline">⏳ Apply before: 30 October 2026</span>
 
                 <h4>Salary</h4>
-                <p>₹15,000 – ₹40,000 (Based on skills & experience)</p>
+                <p>₹15,000 – ₹35,000 + High Sales Incentives & Travel Allowance</p>
 
                 <h4>Job Description</h4>
-                <p>Build high-quality cross-platform mobile applications using Flutter.</p>
+                <p>Sell healthcare software solutions (TekSathi Healthcare, GynoSakhi, Clinic & Hospital Management Systems, Telehealth Portals) to clinics, hospitals, diagnostic centers, and doctors.</p>
 
                 <h4>Responsibilities</h4>
                 <ul>
-                    <li>Develop mobile apps using Flutter</li>
-                    <li>Integrate APIs and backend services</li>
-                    <li>Fix bugs and improve performance</li>
-                    <li>Work with design & backend team</li>
+                    <li>Visit doctors, clinics, and hospitals to pitch healthcare software solutions</li>
+                    <li>Generate leads, deliver product demos, and close sales with healthcare providers</li>
+                    <li>Build long-term professional relationships with doctors and clinic owners</li>
+                    <li>Meet monthly sales targets and provide client feedback to the product team</li>
                 </ul>
 
                 <h4>Required Skills</h4>
                 <ul>
-                    <li>Flutter & Dart</li>
-                    <li>API integration</li>
-                    <li>State management (Provider / Bloc)</li>
-                    <li>UI understanding</li>
+                    <li>Background in Medical Representative (MR) or Healthcare Field Sales</li>
+                    <li>Strong communication, pitching, and negotiation skills</li>
+                    <li>Field sales experience & doctor networking in target locations</li>
+                    <li>Basic understanding of healthcare software solutions and CRMs</li>
                 </ul>
 
                 <h4>Perks & Benefits</h4>
                 <ul>
-                    <li>Real project experience</li>
-                    <li>Skill growth opportunities</li>
-                    <li>Flexible environment</li>
-                    <li>Career development</li>
+                    <li>Attractive commission & sales incentives</li>
+                    <li>Travel & mobile expense allowances</li>
+                    <li>Fast-track career growth in HealthTech</li>
+                    <li>Supportive sales & product training</li>
                 </ul>
 
                 <a href="<?php echo BASE_URL ?>job-apply" class="apply-btn">Apply Now</a>
             </div>
 
-            <!-- BACKEND DEVELOPER -->
+            <!-- IT SALES EXECUTIVE / BDE -->
             <div class="job-card">
-                <h3>Backend Developer</h3>
-                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: Lucknow / Remote</p>
-                <span class="job-deadline">⏳ Apply before: 10 June 2026</span>
+                <h3>IT Sales Executive / Business Development Executive (BDE)</h3>
+                <p class="job-meta">Experience: 0–3 Years | Type: Full-Time | Location: Lucknow / Remote / Hybrid</p>
+                <span class="job-deadline">⏳ Apply before: 30 October 2026</span>
 
                 <h4>Salary</h4>
-                <p>₹15,000 – ₹40,000 (Based on skills & experience)</p>
+                <p>₹15,000 – ₹40,000 + Performance Incentives</p>
 
                 <h4>Job Description</h4>
-                <p>Develop scalable backend systems, APIs, and database architecture.</p>
+                <p>Drive business growth by acquiring clients for website development, mobile apps, custom web applications, SaaS platforms, and enterprise software solutions.</p>
 
                 <h4>Responsibilities</h4>
                 <ul>
-                    <li>Build and maintain REST APIs</li>
-                    <li>Database design and optimization</li>
-                    <li>Server-side logic development</li>
-                    <li>Security and performance improvements</li>
+                    <li>Identify business leads and prospective clients for IT services & software products</li>
+                    <li>Conduct client meetings, present technical proposals, and negotiate deal closures</li>
+                    <li>Understand client project requirements and coordinate with software development team</li>
+                    <li>Maintain client relationship and oversee post-sale onboarding & renewals</li>
                 </ul>
 
                 <h4>Required Skills</h4>
                 <ul>
-                    <li>PHP / CodeIgniter / Node.js</li>
-                    <li>MySQL / PostgreSQL</li>
-                    <li>API development</li>
-                    <li>Server basics</li>
+                    <li>Experience or strong interest in IT Sales / BDE / B2B Software Sales</li>
+                    <li>Excellent communication, presentation, and closing skills</li>
+                    <li>Lead generation capability via LinkedIn, cold outreach, and business networks</li>
+                    <li>Basic knowledge of web technologies, mobile apps, and IT service models</li>
                 </ul>
 
                 <h4>Perks & Benefits</h4>
                 <ul>
-                    <li>Work on live systems</li>
-                    <li>Career growth</li>
-                    <li>Learning opportunities</li>
-                    <li>Team collaboration</li>
+                    <li>Lucrative incentive structure on deal closures</li>
+                    <li>Real corporate B2B sales experience</li>
+                    <li>Opportunities to advance to BDE Lead / Sales Manager</li>
+                    <li>Dynamic, collaborative work culture</li>
                 </ul>
 
                 <a href="<?php echo BASE_URL ?>job-apply" class="apply-btn">Apply Now</a>

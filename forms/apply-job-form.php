@@ -13,7 +13,12 @@ $name = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
 $phone = $_POST['phone'] ?? '';
 $experience = $_POST['experience'] ?? '';
+$job_role = $_POST['job_role'] ?? '';
 $message = $_POST['message'] ?? '';
+
+if ($job_role !== '') {
+  $message = "[Applied Position: " . $job_role . "]\n" . $message;
+}
 
 // VALIDATION
 if (!$name || !$email || !$phone || !$experience || !$message) {
